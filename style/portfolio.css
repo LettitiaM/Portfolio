@@ -8,6 +8,7 @@
 .about-section h1{
     font-family: var(--heading-font-family);
 font-size: 64px;
+line-height: 80px;
 }
 .about-section h2{
     font-family: var(--default-font-family);
@@ -29,6 +30,10 @@ font-size: 64px;
 }
 .about-section{
     padding: 160px 20px;
+}
+
+.about-section-content{
+    margin: 30px;
 }
 
 h1{
