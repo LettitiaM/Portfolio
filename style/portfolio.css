@@ -5,6 +5,32 @@
     --default-font-family:"Poppins", sans-serif;
 }
 
+.about-section h1{
+    font-family: var(--heading-font-family);
+font-size: 64px;
+}
+.about-section h2{
+    font-family: var(--default-font-family);
+    font-style: bold;
+    font-size: 18px;
+}
+.about-section p{
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    margin: 0;
+}
+.about-section a{
+    background:var(--brading-color);
+    text-decoration:none ;
+    color:#FFFFFF;
+    border-radius:  4px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.about-section{
+    padding: 160px 20px;
+}
+
 h1{
     font-family: var(--heading-font-family);
     font-style: bold;
@@ -12,6 +38,7 @@ h1{
 }
 h2{
     font-size: 64px;
+    font-family: var(--heading-font-family);
 }
 p{
     font-family: var(--default-font-family);
@@ -52,4 +79,13 @@ p{
     border-radius:  4px;
     line-height: 27px;
     padding: 15px 30px;
+}
+@media(max-width:900px){
+    img{
+        display:none;
+    }
+}
+.project-description{
+    padding: 120px 60px  0;
+
 }
