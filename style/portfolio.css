@@ -93,8 +93,12 @@ p{
     padding: 15px 30px;
 }
 @media(max-width:900px){
-    img{
-        display:none;
+    h1{
+        font-size: 44px;
+        line-height: 1.5;
+    }
+    h2{
+        font-size: 44px;
     }
 }
 .project-description{
