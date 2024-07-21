@@ -21,16 +21,14 @@
     margin: 0;
 }
 .content a{
-    background:var(--brading-color);
     text-decoration:none ;
-    color:#FFFFFF;
     border-radius:  4px;
     line-height: 27px;
     padding: 15px 30px;
     transition: all 150ms ease-in-out;
 }
 .content a:hover{
-    background-color: #272142;
+    background-color: var(--brading-color);
 }
 .content h3{
     font-size: 24px;
@@ -107,7 +105,7 @@ p{
     h2{
         font-size: 44px;
     }
-    .content-section{
+    .content{
         text-align: center;
         padding: 0;
     }
@@ -152,7 +150,7 @@ footer .email-link{
     font-size: 24px;
 }
 footer .email-link:hover{
-    color: var(--brading-color);
+    background-color: var(--brading-color);
 }
 footer .social-links a{
     text-decoration: none;
