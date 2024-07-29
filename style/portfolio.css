@@ -98,6 +98,7 @@ p{
     padding: 15px 30px;
 }
 @media(max-width:900px){
+    
     h1{
         font-size: 44px;
         line-height: 1.5;
@@ -119,7 +120,12 @@ p{
     
     
 }
-
+@media only screen and (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  }
 .project-description{
     padding: 120px 60px  0;
 
